@@ -411,7 +411,7 @@ const SubwaySimulator = () => {
       </div>
       
       <div className="w-full mb-2">
-        <label className="flex flex-col">
+        <label className="flex flex-col w-full">
           <span className="mb-1">Simulation Speed: {simulationSpeed}x</span>
           <input 
             type="range" 
